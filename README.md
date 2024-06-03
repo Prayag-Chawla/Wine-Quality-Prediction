@@ -27,6 +27,7 @@ Linear regression is a fundamental statistical method used to model the relation
 The process involves collecting and preprocessing data, fitting the model using software like statsmodels or scikit-learn, checking assumptions (linearity, independence, homoscedasticity, normality, and no multicollinearity), and evaluating the model's performance with metrics such as R-squared and Mean Squared Error (MSE). Once validated, the model can be used for predictions, providing valuable insights and forecasting capabilities.
 
 
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/5c4c2435-f7d3-49ca-9514-a58ec3d457cf)
 
 
 
@@ -37,6 +38,9 @@ The process involves collecting and preprocessing data, fitting the model using 
 Logistic regression is a statistical method used to model the relationship between a dependent variable and one or more independent variables, particularly when the dependent variable is binary (i.e., it has two possible outcomes such as "yes" or "no", "success" or "failure"). Unlike linear regression, which predicts continuous outcomes, logistic regression predicts the probability that a given input point belongs to a certain class.
 
 In logistic regression, the output is transformed using a logistic function (also known as the sigmoid function), which produces a probability value between 0 and 1. This makes it suitable for classification problems. The model estimates the probability that a given observation belongs to the default class (usually coded as 1).
+
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/6973eccb-caf7-4f3f-a375-608c4e3efd6a)
+
 
 ## Decision tree classifier
 
@@ -61,15 +65,21 @@ Choosing the Best Attribute: Use attribute selection measures to determine the b
 Splitting: Divide the data into subsets based on the best attribute, creating branches of the tree.
 Repeat Steps 3-4: Continue splitting each subset recursively, using the best attribute at each step, until all data is classified or a stopping criterion (like maximum depth of the tree) is met.
 Pruning: Remove unnecessary branches from the tree to avoid overfitting and improve the tree's performance on unseen data.
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/71f0021b-1b20-4d36-821c-12b20118aa74)
+
 
 ## Support vector machine
 
 Support Vector Machine (SVM) is a robust supervised machine learning algorithm primarily used for classification tasks but also applicable to regression. It works by finding the optimal hyperplane that separates data points of different classes with the maximum margin. The closest data points to this hyperplane are called support vectors, which are crucial in defining the boundary. SVM is particularly effective in high-dimensional spaces and can handle both linear and non-linear classification problems through the use of kernel functions, such as linear, polynomial, and radial basis function (RBF) kernels. Despite its strengths, including robustness to overfitting and versatility, SVM can be computationally intensive, especially with large datasets, and selecting the appropriate kernel and tuning its parameters can be complex. SVMs are widely used in various fields like bioinformatics for gene classification, text categorization, and image recognition, due to their accuracy and effectiveness in handling complex datasets.
 
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/031d5703-b6ec-4d73-b3f9-0019e84f6be5)
 
 
 ## Catboost Regressor
 CatBoost is a gradient boosting algorithm developed by Yandex, optimized for handling categorical data efficiently and effectively. As a regression tool, CatBoost builds an ensemble of trees where each new tree aims to correct the errors of the previous ones, ensuring robust predictive performance. It uniquely processes categorical features directly, eliminating the need for extensive preprocessing like one-hot encoding, which can lead to better performance and faster training times. CatBoost is user-friendly, requiring minimal parameter tuning, and includes built-in mechanisms to prevent overfitting, such as ordered boosting and advanced regularization techniques. Despite being resource-intensive, CatBoost is particularly effective in fields like finance, marketing, and healthcare, where high-dimensional categorical data is prevalent, making it a popular choice for complex regression tasks.
+
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/14a72475-49a2-489e-88fe-d038903729d2)
+
 
 ## Libraries and Usage
 
@@ -145,6 +155,12 @@ Score the X-train with Y-train is : 0.94%
 Score the X-test with Y-test is : 0.68%
 Accuracy score 0.53%
 
+
+
+## Output
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/15996741-24e3-4bd6-b32a-9fdca2bd31dd)
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/200e612e-a84e-4560-86ec-c47577b562d6)
+![image](https://github.com/Prayag-Chawla/Wine-Quality-Prediction/assets/92213377/0bcc2e88-ef7b-48bc-aa93-c0acec13c09f)
 
 
 
